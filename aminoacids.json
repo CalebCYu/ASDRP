@@ -1,0 +1,109 @@
+{
+    "amino_acids": [
+    {
+    "name": "Alanine",
+    "opt": "GCG",
+    "codons": ["GCU", "GCC", "GCA", "GCG"]
+    },
+    {
+    "name": "Arginine",
+    "opt": "CGC",
+    "codons": ["CGU", "CGC", "CGA", "CGG", "AGA", "AGG"]
+    },
+    {
+    "name": "Asparagine",
+    "opt": "AAC",
+    "codons": ["AAU", "AAC"]
+    },
+    {
+    "name": "Aspartic Acid",
+    "opt": "GAU",
+    "codons": ["GAU", "GAC"]
+    },
+    {
+    "name": "Cysteine",
+    "opt": "UGC",
+    "codons": ["UGU", "UGC"]
+    },
+    {
+    "name": "Glutamine",
+    "opt": "CAG",
+    "codons": ["CAA", "CAG"]
+    },
+    {
+    "name": "Glutamic Acid",
+    "opt": "GAA",
+    "codons": ["GAA", "GAG"]
+    },
+    {
+    "name": "Glycine",
+    "opt": "GGC",
+    "codons": ["GGU", "GGC", "GGA", "GGG"]
+    },
+    {
+    "name": "Histidine",
+    "opt": "CAU",
+    "codons": ["CAU", "CAC"]
+    },
+    {
+    "name": "Isoleucine",
+    "opt": "AUU",
+    "codons": ["AUU", "AUC", "AUA"]
+    },
+    {
+    "name": "Leucine",
+    "opt": "CUG",
+    "codons": ["UUA", "UUG", "CUU", "CUC", "CUA", "CUG"]
+    },
+    {
+    "name": "Lysine",
+    "opt": "AAA",
+    "codons": ["AAA", "AAG"]
+    },
+    {
+    "name": "Methionine",
+    "opt": "Start",
+    "codons": ["AUG"]
+    },
+    {
+    "name": "Phenylalanine",
+    "opt": "UUU",
+    "codons": ["UUU", "UUC"]
+    },
+    {
+    "name": "Proline",
+    "abbr": "CCG",
+    "codons": ["CCU", "CCC", "CCA", "CCG"]
+    },
+    {
+    "name": "Serine",
+    "opt": "AGC",
+    "codons": ["UCU", "UCC", "UCA", "UCG", "AGU", "AGC"]
+    },
+    {
+    "name": "Threonine",
+    "opt": "ACC",
+    "codons": ["ACU", "ACC", "ACA", "ACG"]
+    },
+    {
+    "name": "Tryptophan",
+    "opt": "UGG",
+    "codons": ["UGG"]
+    },
+    {
+    "name": "Tyrosine",
+    "opt": "UAU",
+    "codons": ["UAU", "UAC"]
+    },
+    {
+    "name": "Valine",
+    "opt": "GUG",
+    "codons": ["GUU", "GUC", "GUA", "GUG"]
+    },
+    {
+    "name": "Stop",
+    "codons": ["UAA", "UAG", "UGA"]
+    }
+    ]
+    }
+    
