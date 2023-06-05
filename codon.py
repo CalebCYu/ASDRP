@@ -13,7 +13,7 @@ file_path = 'aminoacids.json'
 data = read_json_file(file_path)
 
 
-
+x = 1
 
 
 
