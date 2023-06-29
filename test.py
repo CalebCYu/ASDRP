@@ -36,7 +36,8 @@ def calculate_molecular_weight(amino_acid_sequence):
 
 # Get user input for mRNA template sequence
 template_sequence = input("Enter the mRNA template sequence: ")
-
+template_sequence.upper()
+print(template_sequence)
 # Fragment and randomize the sequence
 fragments = [template_sequence[i:i+9] for i in range(0, len(template_sequence), 9)]
 random.shuffle(fragments)
@@ -48,10 +49,10 @@ for fragment in fragments[:20]:
     randomized_fragment = randomize_fragments(fragment)
     for i in range(0, len(randomized_fragment), 3):
         codon = randomized_fragment[i:i+3]
-        amino_acid = next((aa["Amino acid"] for aa in amino_acids if codon in [aa["Priority Codon"]] + aa["Optional Codon"]), "Unknown")
+        amino_acid = next((aa["name"] for aa in amino_acids if codon in aa["codons"]), "Unknown")
         amino_acid_sequence.append(amino_acid)
     
-    molecular_weight += calculate_molecular_weight(amino_acid_sequence[-3:])
+    molecular_weight += calculate_molecular_weight(amino_acid_sequence)
 
 # Print assembled fragments and molecular weight
 print("Assembled Fragments (up to 20):")
