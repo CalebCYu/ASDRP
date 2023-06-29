@@ -5,9 +5,9 @@ import json
 import random
 
 # Load the JSON data from the file
-with open('essential_amino_acids.json') as json_file:
+with open('aminoacids.json') as json_file:
     data = json.load(json_file)
-    amino_acids = data['essential_amino_acids']
+    amino_acids = data['amino_acids']
 
 # Function to randomize the fragments every three codons
 def randomize_fragments(template_sequence):
