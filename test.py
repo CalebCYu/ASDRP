@@ -12,7 +12,7 @@ with open('aminoacids.json') as json_file:
 # Function to randomize the fragments every three codons
 def randomize_fragments(template_sequence):
     # Split the template sequence into codons
-    codons = [template_sequence[i:i+3] for i in range(0, len(template_sequence), 3)]
+    codons = [template_sequence[i:i+9] for i in range(0, len(template_sequence), 9)]
     
     # Randomize the fragments
     random.shuffle(codons)
@@ -60,3 +60,5 @@ for i, fragment in enumerate(amino_acid_sequence[:20], 1):
     print(f"Fragment {i}: {fragment}")
     
 print(f"Molecular Weight: {molecular_weight:.2f} kDa")
+
+
