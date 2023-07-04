@@ -11,7 +11,7 @@ def gcContent(string):
     for i in range(len(parsed)):
         if parsed[i] == "A":
             gc -= 1
-        if parsed[i] =="U":
+        if parsed[i] =="T":
             gc -= 1
     print(gc)
     return gc/length
@@ -26,7 +26,7 @@ def TM(string):
     for i in range(len(parsed)):
         if parsed[i] == "A":
             gc -= 1
-        if parsed[i] =="U":
+        if parsed[i] =="T":
             gc -= 1
     return 64.9+41*(gc-16.4)/(length)
 
